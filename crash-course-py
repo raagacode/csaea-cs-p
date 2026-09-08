@@ -1,0 +1,34 @@
+# Comment
+print("Hello World")
+
+# VARIABLE DECLERATION and data types
+
+a=4 # an integer
+
+b=5.5 # called floating point number or float
+
+c='CSAEA' # These are called strings
+
+d=False # (Has to be Captial letter) This is called a boolean
+
+print(c) # qith quotations is the literal letter c but without is the variable
+print(a, b, c, d)
+
+# Operators
+# These are +, -, /, * (Modulous is %) ** //
+# +=    -=   /=  
+
+e= 16 * 5
+print(e)
+# If i want to add or sub or multiply or divide another number to the sum of e...
+e+=7
+print(e)
+
+# f-string
+print(f"e is equal to {e}") # Add a lowercase f inside print and put the second e in braces
+
+# Examples :)
+
+e-=773
+e+=122
+print(f"e is NOW equal to {e}")
