@@ -32,3 +32,55 @@ print(f"e is equal to {e}") # Add a lowercase f inside print and put the second 
 e-=773
 e+=122
 print(f"e is NOW equal to {e}")
+
+
+
+
+#Itteration (also a loop)
+# A for loop will ileterate over a RANGE
+# Range is a range of numbers
+# range(stop)      range(start, stop)      range( start, stp, step )
+# example- 
+
+range(100)
+range(50,100)
+range(0,100,5)
+animals = ("Sheep", "Deer", "Moose")
+print(f"List:{animals}")
+for animal in animals:
+    print(f"we saw a {animal}")
+
+
+
+    nums=[1.2, 2.2, 3.2, 4.2, 5.2]
+#write a formula to list
+print(f"List:{nums}")   
+for num in nums: #<--- for__ cannont be the same as in___
+    print(f"the sum is {num}")    #if i wanna past ONLY THE NUMBER, then just type in... print(num)
+# put an indent befor the last print(...)
+
+
+
+for i in range(len(nums)):  #<--- len tells you the amount of elements.
+    print(nums[i])
+
+#Debugging
+print(len(nums))
+print(range(5))
+for i in range(0,5):
+    print(nums[i])
+    # While loop
+    # iterates while a condition is true
+    #when the condition becomes false, it stops
+
+x=5
+while x<10:
+    print(x)
+    # to add to 5...
+    x+=1
+
+
+t=True
+f=False
+while t or f:
+    print(t) # This will make it go on FOREVER :)
