@@ -11,7 +11,7 @@ c='CSAEA' # These are called strings
 
 d=False # (Has to be Captial letter) This is called a boolean
 
-print(c) # qith quotations is the literal letter c but without is the variable
+print(c) # with quotations is the literal letter c but without is the variable
 print(a, b, c, d)
 
 # Operators
@@ -39,7 +39,7 @@ print(f"e is NOW equal to {e}")
 #Itteration (also a loop)
 # A for loop will ileterate over a RANGE
 # Range is a range of numbers
-# range(stop)      range(start, stop)      range( start, stp, step )
+# range(stop)      range(start, stop)      range( start, stop, step )
 # example- 
 
 range(100)
@@ -82,5 +82,6 @@ while x<10:
 
 t=True
 f=False
-while t or f:
+while f:
     print(t) # This will make it go on FOREVER :)
+print(not False or True and False) # not_____or_____and
