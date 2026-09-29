@@ -1,7 +1,7 @@
 # Comment
 print("Hello World")
 
-# VARIABLE DECLERATION and data types
+# VARIABLE DECLARATION and data types
 
 a=4 # an integer
 
@@ -56,8 +56,8 @@ for animal in animals:
 #write a formula to list
 print(f"List:{nums}")   
 for num in nums: #<--- for__ cannont be the same as in___
-    print(f"the sum is {num}")    #if i wanna past ONLY THE NUMBER, then just type in... print(num)
-# put an indent befor the last print(...)
+    print(f"the number is {num}")    #if i wanna past ONLY THE NUMBER, then just type in... print(num)
+# put an indent before the last print(...)
 
 
 
@@ -67,6 +67,8 @@ for i in range(len(nums)):  #<--- len tells you the amount of elements.
 #Debugging
 print(len(nums))
 print(range(5))
+print(f"The length of nums is {range(len(nums))}")
+
 for i in range(0,5):
     print(nums[i])
     # While loop
