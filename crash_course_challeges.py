@@ -74,7 +74,7 @@ print(f" Items= {(len(cart))}")
 total=0
 for j in range(0,len(cart)):
     total=total+cart[j]
-print(f"Total ${total}")
+print(f"Total=${total}")
 #challenge 3
 fahrenheit = 212
 x=fahrenheit-32
