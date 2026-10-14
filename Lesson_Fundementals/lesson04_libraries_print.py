@@ -71,3 +71,39 @@ result = math.ceil(step3)
 print("Your random num is:", result)
 
 
+#CHALLENGE 1 
+
+print("\nChallenge 1:")
+
+diameter = 14
+radius = diameter/2
+circle_area = math.pi*math.pow(radius,2)
+print(circle_area)
+print(math.ceil(circle_area))
+print("\n")
+
+print("Challenge 3:")
+#Simulate rolling a six sided dice
+import random
+
+die_roll = random.randint(1,6)
+print(f"You rolled a: {die_roll}")
+
+
+#Challenge 4
+
+num = random.randint(1,75)
+calc1 = math.sqrt(num)
+calc2 = math.ceil(calc1)
+print(f"Unrounded square root: {calc1}\nRounded square root: {calc2}")
+
+
+# challenge 5
+
+
+base = random.randint(1,6)
+exponent = random.randint(1,6)
+equation = base**exponent
+result = int(equation)
+print(f"Result: {result}")
+
