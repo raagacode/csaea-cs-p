@@ -27,8 +27,8 @@ say_bye()
 # Functions more commonly RETURN values, not merely print
 # We can pass an ARGUMENT into a function's PARAMETER
 
-def express_this(e): # e is called a PARAMETER, which is a placeholder for an ARGUMENT 
-    return e
+def express_this(x): # x is called a PARAMETER, which is a placeholder for an ARGUMENT 
+    return x
 
 expression = express_this(2 + 67)# the mathmatical expression here is the ARGUMENT, the actual value that will be used by a functions PARAMETER
 
@@ -70,3 +70,53 @@ print(one, two, three, four)
 # Write a function named doubler(num, times) that has TWO parameters: 
 # First parameter:  the number i want doubled
 # Second paramater: how many times the loop should run 
+def doubler(num, times):
+    doubled_numbers = []
+    number = num
+
+    for n in range(times):
+        number = number * 2
+        doubled_numbers.append(number)
+
+    print(doubled_numbers)
+    return doubled_numbers
+
+doubler(1, 5)
+
+# Example output:
+# doubler(1, 5)
+# result --> [2, 4, 8, 16, 32]
+
+def adder(a, b):
+    print(a + b)
+    return a + b
+def subtract(a, b):
+    print(a - b)
+    return a - b
+def multiply(a, b):
+    print(a * b)
+    return a * b
+def dive(a, b):
+    print(a / b)
+    return a / b
+print()
+
+sum = adder(1,3)
+sum_two = adder(234,9)
+print(sum)
+print(sum_two)
+
+# Challenge 2
+# Make a function called average that:
+# 1) accepts five numbers
+# 2) returns the average
+# 3) print the returned value outside the function
+
+def average(a,b,c,d,e):
+    temp = a+b+c+d+e
+    print(temp/5)
+    return temp/5
+
+average(6,18,25,32,67)
+
+#challenge 4

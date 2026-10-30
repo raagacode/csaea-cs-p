@@ -87,3 +87,11 @@ for i in range(1,11):
 # Challenge 2: Guess Until Correct
 # Create a while-loop that keeps asking for a number until the user types 7.
 #H int: Take the user input within the loop, so it asks for a guess each time!
+
+#c4
+ #count += 1
+#     count = 0
+#     print(count)
+#     for letter in "pineapple":
+#         if letter in "aeiou":
+#             count = 1\
